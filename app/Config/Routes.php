@@ -58,7 +58,7 @@ $routes->get('/asisten/logout', 'AsistenController::logout');
 $routes->get('/asisten/kembali', 'AsistenController::kembali');
 // $routes->post('/asisten/update', 'AsistenController::update');
 // $routes->post('/asisten/delete', 'AsistenController::delete');
-$routes->get('/', 'Home::index');
+$routes->get('/', 'AsistenController::login');
 $routes->get('/asisten', 'AsistenController::index');
 /*
  * --------------------------------------------------------------------
